@@ -1,0 +1,23 @@
+.fnmnLogox {
+  width: 20%;
+  position: absolute;
+  z-index: 10;
+}
+
+@media only screen and (max-width: 769px) {
+  .fnmnLogox {
+    width: 30%;
+    position: absolute;
+    z-index: 10;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .fnmnLogox {
+    width: 16rem;
+    position: absolute;
+    left: calc(50% - 8rem);
+    top: 0px;
+    z-index: 10;
+  }
+}

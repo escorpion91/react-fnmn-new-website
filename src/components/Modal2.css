@@ -1,0 +1,284 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+}
+
+.modalContainer {
+  width: 420px;
+  height: 600px;
+  /* border-radius: 12px; */
+  background-color: teal;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: 0 0 20px #000;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  padding-top: 0;
+}
+
+form {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  /* padding: 1vw 2vw; */
+  width: 100%;
+  border-radius: 10px;
+  /* -----DESDE AQUI DEPLOY----------- */
+  /* position: absolute; */
+  /* max-height: 0px; */
+  overflow: hidden;
+  transition: all 1s;
+}
+
+.show {
+  max-height: 400px;
+}
+
+.emailBody {
+  position: relative;
+}
+
+form label {
+  color: black;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: none;
+}
+
+form input {
+  border: 0.5px solid black;
+  margin: 3px 0;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 12px;
+}
+form textarea {
+  border: 0;
+  margin: 3px 0;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 12px;
+}
+
+form button {
+  padding: 15px;
+  /* background: #ff5361; */
+  background: rgba(241, 71, 136, 0.8);
+  color: white;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+
+.bodyContenido1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.bodyContenido1 div {
+  margin: 2px 0;
+  border-radius: 4px;
+}
+
+.bodyContenido1 a {
+  margin: 2px 0;
+  border-radius: 4px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.bodyContenido2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.bodyContenido2 div {
+  margin: 2px 0;
+  border-radius: 4px;
+}
+
+.bodyContenido3 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 48% 52%;
+}
+
+.bodyContenido3 div {
+  margin: 2px 0;
+  border-radius: 4px;
+}
+
+.primerdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fnmnlogonegro {
+  width: 70%;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  border-bottom: 2px solid black;
+  /* margin-top: 10px; */
+}
+
+.modalContainer .title h1 {
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-weight: 900;
+}
+
+.modalContainer .title p {
+  color: black;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* #spotify {
+    background-color: #81b71a;
+    display: flex;
+    flex-direction: row;
+    min-width: 90px;
+    justify-content: space-between;
+  } */
+
+/* .spotifyDiv {
+  background-color: #81b71a;
+  display: flex;
+  justify-content: space-evenly;
+  width: 98%;
+  align-items: center;
+  box-sizing: border-box;
+  margin-right: 60px;
+} */
+
+/* .youtubeDiv {
+  background-color: #bb0000;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;}
+
+.twitterDiv {
+  background-color: #00aced;
+  display: flex;
+  justify-content: space-evenly;
+  width: 98%;
+}
+
+.facebookDiv {
+  background-color: #3b5998;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+} */
+
+/* .instagramDiv {
+  background-color: #cd486b;
+  display: flex;
+  justify-content: space-evenly;
+  width: 98%;
+} */
+
+/* .emailDiv {
+  background-color: #7d7d7d;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+} */
+
+.modalContainer .body {
+  flex: 50%;
+  /* display: flex; */
+  justify-content: center;
+  /* align-items: center; */
+  font-size: 1.2rem;
+  text-align: center;
+  border-bottom: 2px solid black;
+  margin-top: 10px;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.spandeSpotify {
+  font-size: 16px;
+}
+
+.spandeYoutube {
+  font-size: 16px;
+}
+
+.spandeTwitter {
+  font-size: 16px;
+}
+
+.spandeFacebook {
+  font-size: 16px;
+}
+.spandeInstagram {
+  font-size: 16px;
+}
+
+.spandeEmail {
+  font-size: 16px;
+}
+
+.iconoDeBoletin {
+  position: relative;
+  top: 2px;
+}

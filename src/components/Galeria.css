@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blog__container {
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px 20px 0 20px;
+}
+
+.container .heading {
+  margin-top: 30px;
+  width: 30%;
+  padding-bottom: 50px;
+  margin-top: 100px;
+}
+
+.container .heading h3 {
+  font-size: 2em;
+  font-weight: bolder;
+  border-bottom: 3px solid #222;
+  border-top: 3px solid #222;
+}
+
+.container .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* DESDE AQUI */
+.container .wrapper .columna {
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+  align-items: center;
+}
+
+.btnG {
+  margin: 40px 0px 70px 0px;
+  background-color: #222;
+  padding: 15px 40px;
+  border-radius: 5px;
+  width: 15%;
+}
+
+.btnG a {
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+#transparente {
+  opacity: 0;
+}
+
+.fade {
+  position: relative;
+  transition: 1.4s;
+  cursor: pointer;
+
+  /* margin-bottom: 25px; */
+}
+
+.columna img {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.columna img:hover {
+  transform: scale(0.9);
+  z-index: 2;
+  filter: brightness(66%);
+}
+
+.fade:hover::after {
+  opacity: 0.5;
+}
+
+.foto__galeria {
+  width: 99%;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  margin-left: 1px;
+  margin-right: 1px;
+  /* display: none; */
+}
+
+.wapo {
+  width: 80%;
+}
+
+#nightout {
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width: 769px) {
+  .container .wrapper {
+    flex-direction: column;
+  }
+
+  .container .wrapper .columna {
+    width: 100%;
+    /* align-items: center; */
+  }
+}
+
+@media only screen and (max-width: 956px) {
+  .container .heading {
+    margin-top: 30px;
+    width: 60%;
+    margin-top: 100px;
+  }
+
+  .container .heading h3 {
+    font-size: 2em;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+    border-top: 3px solid #222;
+  }
+}
+
+/* HASTA AQUI */
+
+.cuenquita {
+  /* width: 100%;
+    min-width: 100%;
+    z-index: -1; */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.copyright {
+  color: white;
+  margin-left: 2%;
+  width: 20rem;
+  left: calc(50% - 10rem);
+  position: absolute;
+  font-weight: bold;
+}

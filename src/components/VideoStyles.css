@@ -1,0 +1,290 @@
+/* #video {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(50%);
+} */
+
+/* .fotoBio {
+  position: relative;
+  top: -90px;
+} */
+.cuenquita {
+  filter: brightness(110%);
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+}
+
+.hero .content {
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  top: 25vh;
+  /* desde aqui */
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.socialIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 1.5rem;
+}
+
+/* .socialIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  position: absolute;
+  left: 100px;
+  bottom: 3rem;
+  top: 100px;
+  height: 400px;
+} */
+
+.socialIconsContainer {
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  left: 15px;
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.descargaGratisContainer {
+  position: relative;
+  justify-content: left;
+  height: 110px;
+}
+
+.descargaContainer {
+  position: absolute;
+  left: -90px;
+  top: 400px;
+  width: 120%;
+  text-align: left;
+}
+
+.fotoBio {
+  align-items: center;
+  text-align: center;
+  top: -120px;
+}
+
+.hero .content h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 0.8rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  color: #fff;
+}
+
+/* .socialIcons {
+  color: black;
+} */
+
+.hero img {
+  /* font-size: 1.8rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  color: #fff; */
+  /* top: -1%; */
+  text-align: center;
+  /* width: 25%; */
+  /* width: 370px; */
+  border-radius: 4px;
+  position: relative;
+  /* left: 37.5%; */
+  background-color: rgba(241, 241, 220, 0.774);
+  cursor: pointer;
+  /* desde aqui */
+}
+
+/* .descargaGratisContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 100px;
+  top: 300px;
+  text-align: left;
+} */
+
+.descargaGratisContainer h2 {
+  text-transform: uppercase;
+}
+
+.rosaPrincipal {
+  top: -13%;
+  width: 400px;
+  border: 7px solid black;
+}
+
+.hero .btn {
+  margin: 1rem 0.2rem;
+}
+
+.socialIconsContainer::after {
+  content: '';
+  width: 4px;
+  height: 4rem;
+  background: white;
+  background: rgb(217, 63, 123, 0.8);
+}
+
+.socialIconsContainer::before {
+  content: '';
+  width: 4px;
+  height: 4rem;
+  background: rgb(217, 63, 123, 0.8);
+}
+
+.cambiarColor {
+  transition: 0.5s;
+  color: black;
+}
+
+.cambiarColor:hover {
+  color: rgb(217, 63, 123, 0.8);
+}
+
+.descargaContainer a h2 {
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.descargaContainer a h2:hover {
+  color: rgb(217, 63, 123, 0.8);
+}
+
+/* @media only screen and (max-width: 750px) {
+  .rosaPrincipal {
+    width: 70%;
+    position: absolute;
+    top: 0;
+  }
+
+  .content {
+    position: relative;
+  }
+
+  .cuenquita {
+    filter: brightness(10%);
+  }
+}
+
+@media screen and (max-width: 640) {
+  .content h1 {
+    font-size: 3rem;
+  }
+
+  .content p {
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+  }
+} */
+
+/* @media only screen and (max-width: 750px) {
+  .content {
+    grid-template-columns: 100%;
+  }
+  .descargaGratisContainer {
+    justify-content: center;
+    width: 100%;
+  }
+  .descargaContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialIconsContainer {
+    top: 740px;
+    flex-direction: row;
+  }
+
+  .cambiarColor {
+    color: white;
+  }
+} */
+
+.copyright {
+  color: white;
+  margin-left: 2%;
+  width: 20rem;
+  left: calc(50% - 10rem);
+  position: absolute;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 961px) {
+  .hero .content {
+    grid-template-columns: 100%;
+  }
+
+  .socialIconsContainer {
+    /* top: 740px; */
+    top: 1100px;
+    flex-direction: row;
+    margin-top: 120px;
+  }
+
+  .descargaGratisContainer {
+    justify-content: center;
+    width: 100%;
+    top: 350px;
+    margin-top: 90px;
+  }
+
+  .descargaContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .descargaContainer h2 {
+    color: white;
+    margin-bottom: 2px;
+  }
+
+  .cambiarColor {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .rosaPrincipal {
+    width: 75%;
+    position: absolute;
+    top: -6%;
+    margin-top: 30px;
+  }
+}
