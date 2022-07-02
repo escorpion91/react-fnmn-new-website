@@ -17,9 +17,9 @@ const Galeria = () => {
       <img className="cuenquita" src={Cuenca}></img>
       <div className="container">
         <div className="heading">
-          <h3>
+          {/* <h3>
             Toma el <span>salto</span>
-          </h3>
+          </h3> */}
         </div>
         <div className="wrapper">
           {/* -------- COLUMNA 1 -------- */}

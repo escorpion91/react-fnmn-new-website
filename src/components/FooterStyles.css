@@ -128,12 +128,27 @@
   padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 640px) {
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 50px;
+  }
+
   .footer-container {
     grid-template-columns: 1fr;
   }
 
   .right .social {
     margin: auto;
+  }
+
+  .descargaGratisContainer {
+    top: 300px;
   }
 }

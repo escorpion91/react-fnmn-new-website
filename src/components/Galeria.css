@@ -37,6 +37,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 30px;
 }
 /* DESDE AQUI */
 .container .wrapper .columna {
@@ -106,7 +107,7 @@
   margin-top: 4rem;
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 600px) {
   .container .wrapper {
     flex-direction: column;
   }
@@ -117,7 +118,7 @@
   }
 }
 
-@media only screen and (max-width: 956px) {
+@media only screen and (max-width: 1024px) {
   .container .heading {
     margin-top: 30px;
     width: 60%;

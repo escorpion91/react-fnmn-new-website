@@ -1,7 +1,7 @@
 .modalBackground {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(200, 200, 200);
+  background-color: rgba(200, 200, 200, 0.8);
   position: fixed;
   display: flex;
   justify-content: center;
@@ -11,7 +11,7 @@
 }
 
 .modalContainer {
-  width: 420px;
+  width: 400px;
   height: 600px;
   /* border-radius: 12px; */
   background-color: teal;
@@ -169,6 +169,9 @@ form button {
   border: none;
   font-size: 25px;
   cursor: pointer;
+  /* position: fixed; */
+  top: 0px;
+  right: 8px;
 }
 
 /* #spotify {

@@ -5,13 +5,21 @@ import './Modal2.css';
 
 const Modal2 = ({ closeModal }) => {
   return (
-    <div className="modalBackground">
-      <div className="modalContainer">
+    <div onClick={() => closeModal(false)} className="modalBackground">
+      <div
+        onClick={(e) => {
+          e.stopPropagation();
+        }}
+        className="modalContainer"
+      >
         <div class="primerdiv">
           <img className="fnmnlogonegro" src={FnmnLogoNegro}></img>
-          <div className="titleCloseBtn">
-            <button onClick={() => closeModal(false)}> X </button>
-          </div>
+          {/* <div className="titleCloseBtn">
+            <button className="closeBtn" onClick={() => closeModal(false)}>
+              {' '}
+              X{' '}
+            </button>
+          </div> */}
         </div>
         <div className="title">
           <h1>Boletín!</h1>
@@ -48,29 +56,6 @@ const Modal2 = ({ closeModal }) => {
             </form>
           </div>
         </div>
-        {/* <div classname="emailBodyx">
-          <form action="https://formspree.io/f/xwkyjrrq" method="POST">
-            <label for="email">Ingresa tu Email: </label>
-            <input
-              type="text"
-              placeholder="Nombre"
-              name="nombre"
-              id="nombre"
-            ></input>
-            <input
-              type="email"
-              placeholder="Ingresa tu email"
-              name="email"
-              id="email"
-              required
-            ></input>
-            <button type="submit">Subscribirse</button>
-          </form>
-        </div> */}
-        {/* -------------- HASTA AQUI ------------- */}
-        {/* <div className="footer">
-          <button onClick={() => closeModal(false)}>Subscribe</button>
-        </div> */}
       </div>
     </div>
   );

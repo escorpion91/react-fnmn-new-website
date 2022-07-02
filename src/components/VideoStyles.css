@@ -241,14 +241,15 @@
   font-weight: bold;
 }
 
-@media only screen and (max-width: 961px) {
+@media only screen and (max-width: 1024px) {
   .hero .content {
     grid-template-columns: 100%;
   }
 
   .socialIconsContainer {
     /* top: 740px; */
-    top: 1100px;
+    top: 1370px;
+    left: 0;
     flex-direction: row;
     margin-top: 120px;
   }
@@ -280,11 +281,28 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .rosaPrincipal {
     width: 75%;
     position: absolute;
     top: -6%;
     margin-top: 30px;
+  }
+
+  .descargaGratisContainer {
+    top: 320px;
+  }
+
+  .socialIconsContainer {
+    left: 0;
+    top: 1120px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .socialIconsContainer {
+    /* top: 740px; */
+    top: 1070px;
+    left: 0;
   }
 }
