@@ -13,7 +13,7 @@ const Footer = () => {
           {/* --------  OTRA ROW -------- */}
           <div className="row">
             <div className="tour__row">
-              <span>Feb 29</span>
+              <span>Feb 30</span>
             </div>
             <div className="tour__row">
               <span>Diva Nicotina</span>
@@ -22,10 +22,7 @@ const Footer = () => {
               <span>Guayaquil, Ecuador</span>
             </div>
             <div className="tour__row">
-              <a
-                href=" https://www.bandsintown.com/t/103384466?app_id=umg_caroline_warpaint&amp;came_from=267&amp;utm_medium=api&amp;utm_source=public_api&amp;utm_campaign=ticket&amp;affil_code=umg_uk"
-                target="_blank"
-              >
+              <a href="" target="_blank">
                 <button type="button" className="boton">
                   <strong>TICKETS</strong>
                 </button>
@@ -44,10 +41,7 @@ const Footer = () => {
               <span>Guayaquil, Ecuador</span>
             </div>
             <div className="tour__row">
-              <a
-                href=" https://www.bandsintown.com/t/103384466?app_id=umg_caroline_warpaint&amp;came_from=267&amp;utm_medium=api&amp;utm_source=public_api&amp;utm_campaign=ticket&amp;affil_code=umg_uk"
-                target="_blank"
-              >
+              <a href="" target="_blank">
                 <button type="button" className="boton">
                   <strong>TICKETS</strong>
                 </button>
@@ -60,16 +54,13 @@ const Footer = () => {
               <span>Ago 3</span>
             </div>
             <div className="tour__row">
-              <span>Arenal Sound</span>
+              <span>Arenal Sound con Synfodelick en Camp Nou</span>
             </div>
             <div className="tour__row">
               <span>Barcelona, España</span>
             </div>
             <div className="tour__row">
-              <a
-                href=" https://www.bandsintown.com/t/103384466?app_id=umg_caroline_warpaint&amp;came_from=267&amp;utm_medium=api&amp;utm_source=public_api&amp;utm_campaign=ticket&amp;affil_code=umg_uk"
-                target="_blank"
-              >
+              <a href="" target="_blank">
                 <button type="button" className="boton">
                   <strong>TICKETS</strong>
                 </button>
