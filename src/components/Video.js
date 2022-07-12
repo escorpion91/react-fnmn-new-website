@@ -9,6 +9,7 @@ import patioVideo from '../assets/patio.mp4';
 import imagenWapo from '../assets/img1.jpeg';
 import imagenrosa from '../assets/pablofuji.jpg';
 import cuenquita from '../assets/cuenca4.jpg';
+import descarga from '../assets/pedacito-de-oro.zip';
 
 const Video = () => {
   return (
@@ -26,7 +27,7 @@ const Video = () => {
               </span>
             </a>
             <a
-              href="https://www.youtube.com/watch?v=3IskSsxS0qs&ab_channel=SofarLatinAmerica"
+              // href="https://www.youtube.com/watch?v=3IskSsxS0qs&ab_channel=SofarLatinAmerica"
               target="_blank"
             >
               <span className="cambiarColor">
@@ -52,7 +53,7 @@ const Video = () => {
             <h2>Cero spotify</h2>
             <h2>Puro amor</h2>
             <h2>Descarga música gratis</h2>
-            <a>
+            <a href={descarga} download>
               <h2>Dando click aquí</h2>
             </a>
           </div>
