@@ -9,7 +9,7 @@ import patioVideo from '../assets/patio.mp4';
 import imagenWapo from '../assets/img1.jpeg';
 import imagenrosa from '../assets/pablofuji.jpg';
 import cuenquita from '../assets/cuenca4.jpg';
-import descarga from '../assets/pedacito-de-oro-mpFree.zip';
+import descarga from '../assets/pedacito-de-oro-fnmn';
 
 const Video = () => {
   return (
