@@ -25,7 +25,9 @@ const Galeria = () => {
           {/* -------- COLUMNA 1 -------- */}
           <div className="columna">
             <div className="fade">
-              <img className="foto__galeria" src={Simpol}></img>
+              <a href="https://www.instagram.com/yefefia9/" target="_blank">
+                <img className="foto__galeria" src={Simpol}></img>
+              </a>
             </div>
             <img className="foto__galeria" src={Pablofuji}></img>
             <img id="wapo" className="foto__galeria wapo" src={wapo}></img>
@@ -39,21 +41,27 @@ const Galeria = () => {
               src={Fnmn2022B}
             ></img>
             <div className="fade">
-              <img className="foto__galeria fade" src={Fnmn2022B}></img>
+              <a href="https://www.instagram.com/vicer_/" target="_blank">
+                <img className="foto__galeria fade" src={Fnmn2022B}></img>
+              </a>
             </div>
             <img className="foto__galeria" id="nightout" src={nightOut}></img>
           </div>
           {/* -------- COLUMNA 3 -------- */}
           <div className="columna">
             <div className="fade">
-              <img className="foto__galeria" src={Fnmn2022}></img>
+              <a href="https://www.instagram.com/yefefia9/" target="_blank">
+                <img className="foto__galeria" src={Fnmn2022}></img>
+              </a>
             </div>
             <img
               className="foto__galeria"
               id="transparente"
               src={Fnmn2022B}
             ></img>
-            <img className="foto__galeria" src={Goro}></img>
+            <a href="https://www.instagram.com/vicer_/" target="_blank">
+              <img className="foto__galeria" src={Goro}></img>
+            </a>
           </div>
           <div>
             {/* <img className="foto__galeria" src={Festivalito}></img> */}

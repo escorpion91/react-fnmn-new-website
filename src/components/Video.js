@@ -9,7 +9,7 @@ import patioVideo from '../assets/patio.mp4';
 import imagenWapo from '../assets/img1.jpeg';
 import imagenrosa from '../assets/pablofuji.jpg';
 import cuenquita from '../assets/cuenca4.jpg';
-import descarga from '../assets/pedacito-de-oro.zip';
+import descarga from '../assets/pedacito-de-oro-mpFree.zip';
 
 const Video = () => {
   return (
@@ -28,6 +28,7 @@ const Video = () => {
             </a>
             <a
               // href="https://www.youtube.com/watch?v=3IskSsxS0qs&ab_channel=SofarLatinAmerica"
+              href="https://youtu.be/TIz8Xx5XJgU?t=206"
               target="_blank"
             >
               <span className="cambiarColor">
