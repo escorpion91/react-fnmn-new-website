@@ -5,7 +5,7 @@ import { AiFillInstagram } from 'react-icons/ai';
 import { AiFillYoutube } from 'react-icons/ai';
 import { AiFillMail } from 'react-icons/ai';
 
-import patioVideo from '../assets/patio.mp4';
+// import patioVideo from '../assets/patio.mp4';
 import imagenWapo from '../assets/img1.jpeg';
 import imagenrosa from '../assets/pablofuji.jpg';
 import cuenquita from '../assets/cuenca4.jpg';
@@ -51,7 +51,9 @@ const Video = () => {
         </div>
         <div className="descargaGratisContainer">
           <div className="descargaContainer">
-            <h2>Cero spotify</h2>
+            {/* <h2>Cero spotify</h2> */}
+            <h3>hey spotify verify this new account!</h3>
+            <h3>juanenderica@hotmail.com is my email :)</h3>
             <h2>Puro amor</h2>
             <h2>Descarga música gratis</h2>
             <a href={descarga} download>
