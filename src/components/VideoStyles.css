@@ -252,6 +252,7 @@
     left: 0;
     flex-direction: row;
     margin-top: 120px;
+    display: none;
   }
 
   .descargaGratisContainer {
@@ -296,6 +297,7 @@
   .socialIconsContainer {
     left: 0;
     top: 1120px;
+    display: none;
   }
 }
 
@@ -304,5 +306,6 @@
     /* top: 740px; */
     top: 1070px;
     left: 0;
+    display: none;
   }
 }
